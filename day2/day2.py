@@ -38,7 +38,7 @@ def run(code, n, v):
 
 
 if __name__ == "__main__":
-    f = open("../inputs/day2/day2.txt", "r")
+    f = open("../inputs/day2.txt", "r")
 
     l = f.readline().split(',')
     prog = [int(i) for i in l]
